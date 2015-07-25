@@ -11,7 +11,9 @@
     function conf(routeProvider) {
         routeProvider
              .when('/', {
-                 templateUrl: 'scripts/home/home.html'
+                templateUrl: 'scripts/home/home.html',
+                controller: 'Home',
+                controllerAs: 'home'
              });
 
     };
